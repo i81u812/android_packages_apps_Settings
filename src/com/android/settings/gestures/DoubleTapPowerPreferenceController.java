@@ -80,7 +80,7 @@ public class DoubleTapPowerPreferenceController extends GesturePreferenceControl
     @Override
     protected boolean isSwitchPrefEnabled() {
         final int cameraDisabled = Settings.Secure.getInt(mContext.getContentResolver(),
-                SECURE_KEY, ON);
+                Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 1);
         return cameraDisabled == 0;
     }
 
