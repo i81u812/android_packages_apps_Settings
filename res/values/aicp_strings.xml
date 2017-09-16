@@ -22,6 +22,7 @@
     <string name="aicp_name_summary">Another Incomplete Code Project</string>
     <string name="aicpextras_settings">AICP Extras</string>
     <string name="aicpextras_dashboard_summary">ROM Customization</string>
+    <string name="aicp_version">Another Incomplete Code Project Version</string>
 
     <!-- Root Management -->
     <string name="rootmanagement_title">Root management</string>
