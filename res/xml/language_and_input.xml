@@ -63,7 +63,9 @@
             android:title="@string/user_dict_settings_title"/>
     </PreferenceCategory>
 
-    <PreferenceCategory>
+    <PreferenceCategory
+    	android:key="other_settings_category"
+    	android:title="@string/storage_detail_other">
 
         <com.android.settings.PointerSpeedPreference
             android:key="pointer_speed"
