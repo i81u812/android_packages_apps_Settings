@@ -1016,9 +1016,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         resetRootAccessOptions();
         writeLogpersistOption(null, true);
         writeLogdSizeOption(null);
-        writeAnimationScaleOption(0, mWindowAnimationScale, null);
-        writeAnimationScaleOption(1, mTransitionAnimationScale, null);
-        writeAnimationScaleOption(2, mAnimatorDurationScale, null);
         // Only poke the color space setting if we control it.
         if (usingDevelopmentColorSpace()) {
             writeSimulateColorSpace(-1);
