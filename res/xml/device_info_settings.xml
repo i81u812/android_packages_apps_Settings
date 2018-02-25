@@ -19,10 +19,19 @@
         android:title="@string/about_settings">
 
         <!-- AICP logo -->
-        <Preference android:key="aicp_logo"
-                android:title="@string/aicp_name_title"
-                android:summary="@string/aicp_name_summary"
-                android:icon="@drawable/ic_aicp" />
+		<Preference
+		        android:key="aicp_logo"
+				android:layout="@layout/aicp_about_header" />
+
+        <!-- Build date -->
+        <org.lineageos.internal.preference.deviceinfo.LineageBuildDatePreference
+                android:key="build_date" />
+
+        <!-- Detailed build version -->
+        <Preference
+                android:key="build_number"
+                android:title="@string/build_number"
+                android:summary="@string/summary_placeholder"/>
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
@@ -106,16 +115,6 @@
         <Preference
                 android:key="kernel_version"
                 android:title="@string/kernel_version"
-                android:summary="@string/summary_placeholder"/>
-
-        <!-- Build date -->
-        <org.lineageos.internal.preference.deviceinfo.LineageBuildDatePreference
-                android:key="build_date" />
-
-        <!-- Detailed build version -->
-        <Preference
-                android:key="build_number"
-                android:title="@string/build_number"
                 android:summary="@string/summary_placeholder"/>
 
         <!-- SELinux status information -->

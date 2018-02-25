@@ -17,9 +17,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="aicp_name_title">AICP Experience</string>
-    <string name="aicp_name_summary">Aicp Oreo Edition - 13.1</string>
-
+    <!-- Another Incomplete Code Project -->
+    <string name="aicp_name_title">AICP</string>
+    <string name="aicp_name_summary">Another Incomplete Code Project</string>
     <string name="aicpextras_settings">AICP Extras</string>
     <string name="aicpextras_dashboard_summary">ROM Customization</string>
 
@@ -29,12 +29,14 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
 
+    <!-- Phone Info -->
     <string name="device_info_title">Phone info</string>
 
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
 
+    <!-- Show Developer countdown custom -->
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_custom">
         <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling developer options.</item>
@@ -73,7 +75,7 @@
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 
-
+    <!-- Fingerprint swipe to dismiss -->
     <!-- [CHAR LIMIT=80]-->
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <string name="fp_swipe_to_dismiss_notifications_pref_title">Swipe fingerprint left or right</string>
