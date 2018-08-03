@@ -71,7 +71,7 @@
     <color name="memory_avg_use">#ff384248</color>
 
     <!-- Accent color that matches the settings launcher icon -->
-    <color name="icon_accent">#ffabffec</color>
+    <color name="icon_accent">#ffabc2ff</color>
 
     <color name="importance_icon_tint">#8a000000</color>
     <color name="importance_disabled_tint">#4d000000</color>
